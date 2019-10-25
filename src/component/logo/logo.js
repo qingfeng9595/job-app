@@ -1,10 +1,11 @@
 import React,{ Fragment } from 'react';
-
-class Logo extends React.Component{
+import logoImg from './job.png'
+import './logo.css'
+export default class Logo extends React.Component{
 
   render(){
     return(
-      <div className='logo-contanier'>
+      <div className='logo-container'>
         <img src={logoImg} alt=''/>
       </div>
     )
